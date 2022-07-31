@@ -15,3 +15,5 @@ yarn-error.log
 /public/css/app.css
 composer.lock
 /.vscode/lanuch.json
+modules/vendor/*
+modules/Logs/*
