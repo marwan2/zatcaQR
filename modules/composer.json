@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "classmap": [
+      "apiv2"
+    ]
+  },
+  "require": {
+    "salla/zatca": "^1.0"
+  }
+}
