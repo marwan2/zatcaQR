@@ -4,7 +4,11 @@ require('../../vendor/autoload.php');
 
 use API\Zatca\ZatcaQR;
 
+header('Content-Type: application/json');
+
 if(isset($_POST) && !empty($_POST)) {
 	$zatca = new ZatcaQR('', '', '', null, null, null);
-	$zatca->getZatcaCodeAPI();
+	print($zatca->getZatcaCodeAPI());
+
+
 }

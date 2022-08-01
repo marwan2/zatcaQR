@@ -47,8 +47,8 @@ class ZatcaQR{
         echo "<img src='$srcQRCode' alt=''/>";
     }
 
-    public function getZatcaCodeAPI()
-    {
+   public function getZatcaCodeAPI()
+   {
         $data = Helper::getPostData();
         $this->seller_name = $data['seller_name'];
         $this->tax_number = $data['tax_number'];
